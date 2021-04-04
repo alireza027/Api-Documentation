@@ -1,0 +1,23 @@
+{
+  "name": "api-documentation-builder",
+  "version": "0.0.1",
+  "description": "this project used for create api documentation like method and route and parameters",
+  "main": "app.js",
+  "repository": "https://gitlab.com/hozhabrialireza27/api-documentation-builder.git",
+  "author": "alireza027 <hozhabrialireza27@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.10",
+    "morgan": "^1.10.0"
+  }
+}
